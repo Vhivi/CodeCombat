@@ -1,10 +1,10 @@
-# Your goal is to get to the right side of the map alive.
-# You don't need to fight the ogres, just move! Your allies will protect you.
+# Ton but est d'arriver sur le côté droit de la carte. Tes alliés vont t'aider.
+# Pas besoin de combattre les Ogres ! Cours ! Tes alliés te protègeront.
 
 hero.moveRight(2)
 hero.moveUp()
 
-# Use the movement commands to reach the red X!
+# Utilise les commandes de mouvement pour atteindre le X rouge!
 
 hero.moveRight(3)
 hero.moveDown()
