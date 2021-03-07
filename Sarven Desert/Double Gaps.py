@@ -1,7 +1,7 @@
 # Amenez le héros et le paysan au sud.
 
-# La fonction déplace votre héros le long de la ligne centrale.
 def moveDownCenter():
+    '''La fonction déplace votre héros le long de la ligne centrale.'''
     x = 40
     y = hero.pos.y - 12
     hero.moveXY(x, y)
