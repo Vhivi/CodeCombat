@@ -8,7 +8,7 @@ def moveDownCenter():
 
 # La fonction construire une clôture sur la droite de quelque chose :something.
 def buildRightOf(something):
-    # buildXY une "fence" 20 mètres à quelque chose(something) est à droite.
+    '''buildXY une "fence" à 20 mètres de quelque chose(something) qui est à droite.'''
     x = something.pos.x + 20
     y = something.pos.y
     hero.buildXY("fence", x, y)
