@@ -4,6 +4,7 @@
 # Rappele-toi, chaque présentation obtient une nouvelle table aléatoire.
 
 def checkAndAttack(target):
+    '''Vérifie si l'ennemi existe, sa distance et si les abiletés sont disponibles.'''
     if target:
         if hero.isReady("cleave") and (hero.distanceTo(target) < 10):
             hero.cleave(target)
