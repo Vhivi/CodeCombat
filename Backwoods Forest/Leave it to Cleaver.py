@@ -2,7 +2,6 @@
 # Cette fonction définit un paramètre appelé `target`
 def cleaveWhenClose(target):
     if hero.distanceTo(target) < 5:
-        pass
         # Mets ton code d'attaque ici
         # Si fendre (cleave) est prêt (isReady), alors cleave target
         if hero.isReady("cleave"):

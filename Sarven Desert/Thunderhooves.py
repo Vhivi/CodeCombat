@@ -12,8 +12,6 @@ while True:
         else:
             # buildXY a "fence" 10m above the yak.
             hero.buildXY("fence", yak.pos.x, yak.pos.y + 10)
-        pass
     else:
         # moveXY right 10m towards the oasis.
         hero.moveXY(hero.pos.x + 10, hero.pos.y)
-        pass
