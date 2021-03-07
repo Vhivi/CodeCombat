@@ -10,7 +10,5 @@ while True:
             hero.cast("lightning-bolt", enemy)
         else:
             hero.attack(enemy)
-    if hero.health < (83 / 2):
-        if hero.isReady("regen"):
-            hero.cast("regen", hero)
-			
+    if (hero.health < (83 / 2)) and hero.isReady("regen"):
+		hero.cast("regen", hero)
