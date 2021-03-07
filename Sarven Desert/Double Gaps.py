@@ -12,7 +12,6 @@ def buildRightOf(something):
     x = something.pos.x + 20
     y = something.pos.y
     hero.buildXY("fence", x, y)
-    pass
 
 # La fonction construire une clôture sur la gauche de quelque chose :something.
 def buildLeftOf(something):
@@ -20,7 +19,6 @@ def buildLeftOf(something):
     x = something.pos.x - 20
     y = something.pos.y
     hero.buildXY("fence", x, y)
-    pass
 
 while True:
     ogre = hero.findNearestEnemy()
