@@ -15,7 +15,7 @@ def buildRightOf(something):
 
 # La fonction construire une clôture sur la gauche de quelque chose :something.
 def buildLeftOf(something):
-    # buildXY une "fence" 20 mètres à quelque chose(something) est à gauche.
+    '''buildXY une "fence" à 20 mètres de quelque chose(something) qui est à gauche.'''
     x = something.pos.x - 20
     y = something.pos.y
     hero.buildXY("fence", x, y)
