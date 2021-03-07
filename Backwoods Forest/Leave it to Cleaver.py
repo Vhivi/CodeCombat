@@ -1,6 +1,7 @@
 # Ceci montre comment définir une fonction appelée cleaveWhenClose
 # Cette fonction définit un paramètre appelé `target`
 def cleaveWhenClose(target):
+    '''Lance cleave quand la cible (target) est trop proche.'''
     if hero.distanceTo(target) < 5:
         # Mets ton code d'attaque ici
         # Si fendre (cleave) est prêt (isReady), alors cleave target
