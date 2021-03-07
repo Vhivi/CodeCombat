@@ -6,8 +6,6 @@ while True:
     if hero.isReady("cleave"):
         # Fendez l'ennemi!
         hero.cleave(enemy)
-        pass
     else:
         # Sinon (si fendre n'est pas prêt), faites une attaques normale.
         hero.attack(enemy)
-        pass

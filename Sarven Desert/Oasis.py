@@ -9,10 +9,8 @@ while True:
         left = x - 10
         # Use moveXY to move to the new x, y position.
         hero.moveXY(left, y)
-        pass
     else:
         # Déplacez-vous à droite en additionnant 10 à vos coordonnées X
         right = x + 10
         # Use moveXY to move to the new x, y position.
         hero.moveXY(right, y)
-        pass

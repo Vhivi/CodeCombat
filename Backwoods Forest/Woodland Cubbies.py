@@ -14,8 +14,6 @@ if enemy:
     # Attaquez l'ennemi ici:
     hero.attack(enemy)
     hero.attack(enemy)
-    # `pass` est un caractère générique : c'est-à-dire qu'il n'a aucune fonction mis à part de fermer les boucles `if`.
-    pass
 
 hero.moveXY(58, 14)
 enemy = hero.findNearestEnemy()
@@ -24,5 +22,4 @@ if enemy:
     # S'il y a un ennemi, attaquez-le!    
     hero.attack(enemy)
     hero.attack(enemy)
-    pass
     

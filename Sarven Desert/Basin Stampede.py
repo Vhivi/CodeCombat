@@ -9,9 +9,7 @@ while True:
         if enemy.pos.y > hero.pos.y:
             # Si le Yak est au dessus de toi, soustrais 3 à yPos.
             yPos = yPos - 3
-            pass
         elif enemy.pos.y < hero.pos.y:
             # Si le Yak est en dessous de toi, ajoute 3 à yPos.
             yPos = yPos + 3
-            pass
     hero.moveXY(xPos, yPos)

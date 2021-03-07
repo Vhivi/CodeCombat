@@ -15,4 +15,3 @@ while True:
         right = x + 10
         # Utilisez moveXY pour bouger !
         hero.moveXY(right, y)
-        pass
