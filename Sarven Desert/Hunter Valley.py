@@ -1,7 +1,7 @@
 # Évadez-vous du côté droit de la vallée.
 
-# La fonction déplace le héros vers le bas et vers la droite.
 def moveDownRight(step):
+    '''La fonction déplace le héros vers le bas et vers la droite.'''
     hero.moveXY(hero.pos.x + step, hero.pos.y - step)
 
 def moveUpRight(step):
