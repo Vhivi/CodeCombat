@@ -7,8 +7,6 @@ while True:
     if hero.isReady("cleave"):
         hero.shield()
         hero.cleave(enemy)
-        pass
     else:
         hero.attack(enemy)
-        pass
     

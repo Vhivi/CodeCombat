@@ -8,7 +8,6 @@ def moveDownRight(step):
 def moveUpRight(step):
     # Complétez cette fonction:
     hero.moveXY(hero.pos.x + step, hero.pos.y + step)
-    pass
 
 #  Le chasseur est gentil et montrera la route.
 hunter = hero.findFriends()[0]
@@ -22,5 +21,4 @@ while routeIndex < len(route):
     else:
         #  Utilisez une fonction moveDownRight avec le décalage 8:
         moveDownRight(8)
-        pass
     routeIndex += 1

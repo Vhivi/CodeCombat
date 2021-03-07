@@ -9,13 +9,10 @@ while True:
     if hero.isReady("cleave"):
         # La première priorité est d'utilise Cleave quand il est prêt.
         hero.cleave()
-        pass
     elif distance < 5:
         # Attaque le munchkin le plus proche qui est dans ton rayon de portée.
         hero.attack(enemy)
-        pass
     else:
         # sinon, essaie de forcer l'ouverture du coffre:
         # Utilise le nom du coffre pour l'attaquer: "Chest".
         hero.attack("Chest")
-        pass

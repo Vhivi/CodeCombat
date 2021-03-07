@@ -13,5 +13,4 @@ while True:
     # Ou si il n'y à aucun ennemis en vue, continue d'avancer vers en haut à droite.
     else:
         hero.moveXY(hero.pos.x + 1, hero.pos.y + 1)
-    pass
     
