@@ -4,8 +4,8 @@
 def moveDownRight(step):
     hero.moveXY(hero.pos.x + step, hero.pos.y - step)
 
-#  La fonction déplace le héros vers le haut et vers la droite.
 def moveUpRight(step):
+    '''La fonction déplace le héros vers le haut et vers la droite.'''
     # Complétez cette fonction:
     hero.moveXY(hero.pos.x + step, hero.pos.y + step)
 
