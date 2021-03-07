@@ -3,6 +3,7 @@
 # Cette fonction a un paramètre.
 # Un paramètre est un moyen de transmettre des informations dans une fonction.
 def checkAndAttack(target):
+    '''Vérifie qu'un ennemi existe avant de l'attaquer sinon on bouge.'''
     # Le paramètre 'target' est juste une variable!
     # Il contient l'argument lorsque la fonction a été appelée.
     if target:
