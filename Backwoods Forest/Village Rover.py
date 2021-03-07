@@ -1,5 +1,6 @@
 # Ceci définit une fonction nommée findAndAttackEnemy
 def findAndAttackEnemy():
+    '''Trouve et attaque un ennemi.'''
     enemy = hero.findNearestEnemy()
     if enemy:
         hero.attack(enemy)
