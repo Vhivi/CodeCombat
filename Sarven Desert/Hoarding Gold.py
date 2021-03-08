@@ -10,7 +10,6 @@ while True:
         # Add the coin's value to totalGold.
         # Permet d'obtenir la valeur :  coin.value
         totalGold += coin.value
-        pass
     if totalGold >= 25:
         # Permet d'arrêter la loop pour exécuter le code en dessous
         # The loop ends, code after the loop will run.
