@@ -9,7 +9,7 @@ while True:
     item = hero.findNearestItem()
     # Vérifie quel est le type de l'objet pour être sûre que le héro ne ramasse pas du poison !
     # Si le type d'objet est une "gem" ou une "coin":
-    if item.type == "gem" or item.type == "coin":
+    if item.type in ('gem', 'coin'):
         # Ensuite déplace toi et ramasse le:
         pos = item.pos
         x = pos.x
