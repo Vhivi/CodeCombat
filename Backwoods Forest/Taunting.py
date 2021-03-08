@@ -1,7 +1,7 @@
 # Attack les munchkins, appelle les brawlers et ignore les burls.
 
-# Cette fonction définit le comportement des héros face aux ennemis.
 def dealEnemy(enemy):
+    '''Cette fonction définit le comportement des héros face aux ennemis.'''
     # Si enemy.type est "munchkin":
     if enemy.type == "munchkin":
         # Ensuite attaque-le:
