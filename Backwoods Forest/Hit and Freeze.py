@@ -1,7 +1,7 @@
 # Tu es piègé. Ne bouge pas, ca ferait mal 
 
-# Cette fonction vérifie si l'enemy est dans la distance d'attaque
 def inAttackRange(enemy):
+    '''Cette fonction vérifie si l'enemy est dans la distance d'attaque.'''
     distance = hero.distanceTo(enemy)
     # Presque toute les épées ont une distance d'attaque de 3
     if distance <= 3:
