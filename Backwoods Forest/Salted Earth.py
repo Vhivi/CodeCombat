@@ -4,7 +4,7 @@
 
 while True:
     enemy = hero.findNearestEnemy()
-    if enemy.type == "munchkin" or enemy.type == "thrower":
+    if enemy.type in ('munchkin', 'thrower'):
         hero.attack(enemy)
     item = hero.findNearestItem()
     # Vérifie quel est le type de l'objet pour être sûre que le héro ne ramasse pas du poison !
