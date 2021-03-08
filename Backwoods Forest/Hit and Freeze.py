@@ -6,8 +6,7 @@ def inAttackRange(enemy):
     # Presque toute les épées ont une distance d'attaque de 3
     if distance <= 3:
         return True
-    else:
-        return False
+    return False
 
 # Attaque les ogres seulement quand ils sont à portée
 while True:
