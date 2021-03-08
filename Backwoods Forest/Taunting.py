@@ -10,7 +10,6 @@ def dealEnemy(enemy):
     elif enemy.type == "brawler":
         # Alors dis quelque chose au brawler.
         hero.say("Fuck You !")
-    pass
 
 while True:
     enemy = hero.findNearestEnemy()

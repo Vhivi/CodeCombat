@@ -19,4 +19,3 @@ while True:
     # si le resultat sauvegardé dans canAttack est vrai  True, alors attaque !
     if canAttack:
         hero.attack(enemy)
-    pass
