@@ -9,11 +9,9 @@ while True:
         if hero.isReady("cleave"):
             hero.cleave(enemy)
         hero.attack(enemy)
-        pass
     # Sinon, si on est toujours dans les 35 premières secondes, ramasser des Pièces.
     elif hero.time < 35:
         hero.moveXY(coin.pos.x, coin.pos.y)
-        pass
     # Après 35 secondes, rejoindre le raid !
     else:
         hero.moveXY(friend.pos.x, friend.pos.y)
@@ -21,4 +19,3 @@ while True:
             if hero.isReady("cleave"):
                 hero.cleave(enemy)
             hero.attack(enemy)
-        pass
